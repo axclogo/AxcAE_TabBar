@@ -1,0 +1,1134 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA78A12820C29A40009A7D93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A12720C29A40009A7D93 /* AppDelegate.m */; };
+		EA78A12B20C29A40009A7D93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A12A20C29A40009A7D93 /* ViewController.m */; };
+		EA78A12E20C29A40009A7D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA78A12C20C29A40009A7D93 /* Main.storyboard */; };
+		EA78A13020C29A41009A7D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA78A12F20C29A41009A7D93 /* Assets.xcassets */; };
+		EA78A13320C29A41009A7D93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA78A13120C29A41009A7D93 /* LaunchScreen.storyboard */; };
+		EA78A13620C29A41009A7D93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A13520C29A41009A7D93 /* main.m */; };
+		EA78A14020C29A41009A7D93 /* AxcAE_TabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A13F20C29A41009A7D93 /* AxcAE_TabBarTests.m */; };
+		EA78A14B20C29A41009A7D93 /* AxcAE_TabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A14A20C29A41009A7D93 /* AxcAE_TabBarUITests.m */; };
+		EA78A16020C29A55009A7D93 /* AxcAE_TabBarBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A15920C29A55009A7D93 /* AxcAE_TabBarBadge.m */; };
+		EA78A16120C29A55009A7D93 /* AxcAE_TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A15B20C29A55009A7D93 /* AxcAE_TabBar.m */; };
+		EA78A16220C29A55009A7D93 /* AxcAE_TabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A15E20C29A55009A7D93 /* AxcAE_TabBarItem.m */; };
+		EA78A16820C29B9D009A7D93 /* BasedUsingTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A16720C29B9D009A7D93 /* BasedUsingTabBarVC.m */; };
+		EA78A16D20C29D13009A7D93 /* BaseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A16C20C29D13009A7D93 /* BaseTabBar.m */; };
+		EA78A17120C4D035009A7D93 /* ItemSizeTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A17020C4D035009A7D93 /* ItemSizeTabBarVC.m */; };
+		EA78A17520C4D3C8009A7D93 /* ItemSizeAlignmentTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A17420C4D3C8009A7D93 /* ItemSizeAlignmentTabBarVC.m */; };
+		EA78A17920C4D600009A7D93 /* ItemSizeLayoutTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A17820C4D600009A7D93 /* ItemSizeLayoutTabBarVC.m */; };
+		EA78A17D20C4DCFC009A7D93 /* ItemCustomBadgeTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A17C20C4DCFC009A7D93 /* ItemCustomBadgeTabBarVC.m */; };
+		EA78A18120C4DEEF009A7D93 /* ItemCustomAnimationTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A18020C4DEEF009A7D93 /* ItemCustomAnimationTabBarVC.m */; };
+		EA78A18620C4E321009A7D93 /* ItemBackgroundColorTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A18520C4E321009A7D93 /* ItemBackgroundColorTabBarVC.m */; };
+		EA78A18A20C4E4E7009A7D93 /* CustomImageTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A18920C4E4E7009A7D93 /* CustomImageTabBarVC.m */; };
+		EA78A18F20C4E636009A7D93 /* CustomImageSelColorTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A18E20C4E636009A7D93 /* CustomImageSelColorTabBarVC.m */; };
+		EA78A19320C4E781009A7D93 /* ItemTingColorTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A19220C4E781009A7D93 /* ItemTingColorTabBarVC.m */; };
+		EA78A19720C4EBE1009A7D93 /* BulgeCircularTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A19620C4EBE1009A7D93 /* BulgeCircularTabBarVC.m */; };
+		EA78A19B20C4F307009A7D93 /* MultipleBulgeCircularTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A19A20C4F307009A7D93 /* MultipleBulgeCircularTabBarVC.m */; };
+		EA78A19F20C4F396009A7D93 /* MultipleBulgeHybridTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A19E20C4F396009A7D93 /* MultipleBulgeHybridTabBarVC.m */; };
+		EA78A1A320C4F5D7009A7D93 /* BulgeSquareTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1A220C4F5D7009A7D93 /* BulgeSquareTabBarVC.m */; };
+		EA78A1A720C4F978009A7D93 /* ImageTranslucentTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1A620C4F978009A7D93 /* ImageTranslucentTabBarVC.m */; };
+		EA78A1AB20C4FD44009A7D93 /* ItemBackgroundImageTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1AA20C4FD44009A7D93 /* ItemBackgroundImageTabBarVC.m */; };
+		EA78A1AF20C5016B009A7D93 /* HybridGradientHelperTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1AE20C5016B009A7D93 /* HybridGradientHelperTabBarVC.m */; };
+		EA78A1B420C501D9009A7D93 /* WHGradientHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1B220C501D9009A7D93 /* WHGradientHelper.m */; };
+		EA78A1B820C50584009A7D93 /* WHGradientHelperGradientTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1B720C50584009A7D93 /* WHGradientHelperGradientTabBarVC.m */; };
+		EA78A1BC20C506E3009A7D93 /* WHGradientHelperGradientTabBarVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1BB20C506E3009A7D93 /* WHGradientHelperGradientTabBarVC2.m */; };
+		EA78A1C120C507CC009A7D93 /* WHGradientHelperGradientTabBarVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1C020C507CC009A7D93 /* WHGradientHelperGradientTabBarVC3.m */; };
+		EA78A1C520C509FD009A7D93 /* WHGradientHelperGradientTabBarVC4.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1C420C509FD009A7D93 /* WHGradientHelperGradientTabBarVC4.m */; };
+		EA78A1C920C50FA2009A7D93 /* WHGradientHelperGradientItemTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1C820C50FA2009A7D93 /* WHGradientHelperGradientItemTabBarVC.m */; };
+		EA78A1CE20C51170009A7D93 /* WeiBoTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1CD20C51170009A7D93 /* WeiBoTabBarVC.m */; };
+		EA78A1D220C51A1D009A7D93 /* SaltedFishTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1D120C51A1D009A7D93 /* SaltedFishTabBarVC.m */; };
+		EA78A1D620C5261B009A7D93 /* JianShuTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1D520C5261B009A7D93 /* JianShuTabBarVC.m */; };
+		EA78A1DA20C52CB5009A7D93 /* PushHiddenTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1D920C52CB5009A7D93 /* PushHiddenTabBarVC.m */; };
+		EA78A1DF20C52CF0009A7D93 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1DD20C52CF0009A7D93 /* TestVC.m */; };
+		EA78A1E020C52CF0009A7D93 /* TestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA78A1DE20C52CF0009A7D93 /* TestVC.xib */; };
+		EA78A1E720C52E03009A7D93 /* TestPushHiddenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1E520C52E03009A7D93 /* TestPushHiddenVC.m */; };
+		EA78A1E820C52E03009A7D93 /* TestPushHiddenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA78A1E620C52E03009A7D93 /* TestPushHiddenVC.xib */; };
+		EA78A1EF20C52E5D009A7D93 /* TestHiddenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1ED20C52E5D009A7D93 /* TestHiddenVC.m */; };
+		EA78A1F020C52E5D009A7D93 /* TestHiddenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA78A1EE20C52E5D009A7D93 /* TestHiddenVC.xib */; };
+		EA78A1F720C532AB009A7D93 /* TestGetTabBarItemVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A1F520C532AB009A7D93 /* TestGetTabBarItemVC.m */; };
+		EA78A1F820C532AB009A7D93 /* TestGetTabBarItemVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA78A1F620C532AB009A7D93 /* TestGetTabBarItemVC.xib */; };
+		EEA3D8CFAD1A1C27077887B9 /* libPods-AxcAE_TabBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D0BCE7F245C7D3F109E071 /* libPods-AxcAE_TabBar.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA78A13C20C29A41009A7D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA78A11B20C29A40009A7D93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA78A12220C29A40009A7D93;
+			remoteInfo = AxcAE_TabBar;
+		};
+		EA78A14720C29A41009A7D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA78A11B20C29A40009A7D93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA78A12220C29A40009A7D93;
+			remoteInfo = AxcAE_TabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		194D03BE13945668A3E3B928 /* Pods-AxcAE_TabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxcAE_TabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AxcAE_TabBar/Pods-AxcAE_TabBar.debug.xcconfig"; sourceTree = "<group>"; };
+		50D0BCE7F245C7D3F109E071 /* libPods-AxcAE_TabBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AxcAE_TabBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E323BEB4E5C2DB5C39E773 /* Pods-AxcAE_TabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxcAE_TabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-AxcAE_TabBar/Pods-AxcAE_TabBar.release.xcconfig"; sourceTree = "<group>"; };
+		EA78A12320C29A40009A7D93 /* AxcAE_TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AxcAE_TabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA78A12620C29A40009A7D93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA78A12720C29A40009A7D93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA78A12920C29A40009A7D93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA78A12A20C29A40009A7D93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA78A12D20C29A40009A7D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA78A12F20C29A41009A7D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA78A13220C29A41009A7D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA78A13420C29A41009A7D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA78A13520C29A41009A7D93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA78A13B20C29A41009A7D93 /* AxcAE_TabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxcAE_TabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA78A13F20C29A41009A7D93 /* AxcAE_TabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AxcAE_TabBarTests.m; sourceTree = "<group>"; };
+		EA78A14120C29A41009A7D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA78A14620C29A41009A7D93 /* AxcAE_TabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxcAE_TabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA78A14A20C29A41009A7D93 /* AxcAE_TabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AxcAE_TabBarUITests.m; sourceTree = "<group>"; };
+		EA78A14C20C29A41009A7D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA78A15920C29A55009A7D93 /* AxcAE_TabBarBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcAE_TabBarBadge.m; sourceTree = "<group>"; };
+		EA78A15A20C29A55009A7D93 /* AxcAE_TabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcAE_TabBarItem.h; sourceTree = "<group>"; };
+		EA78A15B20C29A55009A7D93 /* AxcAE_TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcAE_TabBar.m; sourceTree = "<group>"; };
+		EA78A15C20C29A55009A7D93 /* AxcAE_TabBarDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcAE_TabBarDefine.h; sourceTree = "<group>"; };
+		EA78A15D20C29A55009A7D93 /* AxcAE_TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcAE_TabBar.h; sourceTree = "<group>"; };
+		EA78A15E20C29A55009A7D93 /* AxcAE_TabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcAE_TabBarItem.m; sourceTree = "<group>"; };
+		EA78A15F20C29A55009A7D93 /* AxcAE_TabBarBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcAE_TabBarBadge.h; sourceTree = "<group>"; };
+		EA78A16620C29B9D009A7D93 /* BasedUsingTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasedUsingTabBarVC.h; sourceTree = "<group>"; };
+		EA78A16720C29B9D009A7D93 /* BasedUsingTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasedUsingTabBarVC.m; sourceTree = "<group>"; };
+		EA78A16920C29BE5009A7D93 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EA78A16B20C29D13009A7D93 /* BaseTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBar.h; sourceTree = "<group>"; };
+		EA78A16C20C29D13009A7D93 /* BaseTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBar.m; sourceTree = "<group>"; };
+		EA78A16F20C4D035009A7D93 /* ItemSizeTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemSizeTabBarVC.h; sourceTree = "<group>"; };
+		EA78A17020C4D035009A7D93 /* ItemSizeTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemSizeTabBarVC.m; sourceTree = "<group>"; };
+		EA78A17320C4D3C8009A7D93 /* ItemSizeAlignmentTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemSizeAlignmentTabBarVC.h; sourceTree = "<group>"; };
+		EA78A17420C4D3C8009A7D93 /* ItemSizeAlignmentTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemSizeAlignmentTabBarVC.m; sourceTree = "<group>"; };
+		EA78A17720C4D600009A7D93 /* ItemSizeLayoutTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemSizeLayoutTabBarVC.h; sourceTree = "<group>"; };
+		EA78A17820C4D600009A7D93 /* ItemSizeLayoutTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemSizeLayoutTabBarVC.m; sourceTree = "<group>"; };
+		EA78A17B20C4DCFC009A7D93 /* ItemCustomBadgeTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemCustomBadgeTabBarVC.h; sourceTree = "<group>"; };
+		EA78A17C20C4DCFC009A7D93 /* ItemCustomBadgeTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemCustomBadgeTabBarVC.m; sourceTree = "<group>"; };
+		EA78A17F20C4DEEF009A7D93 /* ItemCustomAnimationTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemCustomAnimationTabBarVC.h; sourceTree = "<group>"; };
+		EA78A18020C4DEEF009A7D93 /* ItemCustomAnimationTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemCustomAnimationTabBarVC.m; sourceTree = "<group>"; };
+		EA78A18420C4E321009A7D93 /* ItemBackgroundColorTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemBackgroundColorTabBarVC.h; sourceTree = "<group>"; };
+		EA78A18520C4E321009A7D93 /* ItemBackgroundColorTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemBackgroundColorTabBarVC.m; sourceTree = "<group>"; };
+		EA78A18820C4E4E7009A7D93 /* CustomImageTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomImageTabBarVC.h; sourceTree = "<group>"; };
+		EA78A18920C4E4E7009A7D93 /* CustomImageTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomImageTabBarVC.m; sourceTree = "<group>"; };
+		EA78A18D20C4E636009A7D93 /* CustomImageSelColorTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomImageSelColorTabBarVC.h; sourceTree = "<group>"; };
+		EA78A18E20C4E636009A7D93 /* CustomImageSelColorTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomImageSelColorTabBarVC.m; sourceTree = "<group>"; };
+		EA78A19120C4E781009A7D93 /* ItemTingColorTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemTingColorTabBarVC.h; sourceTree = "<group>"; };
+		EA78A19220C4E781009A7D93 /* ItemTingColorTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemTingColorTabBarVC.m; sourceTree = "<group>"; };
+		EA78A19520C4EBE1009A7D93 /* BulgeCircularTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BulgeCircularTabBarVC.h; sourceTree = "<group>"; };
+		EA78A19620C4EBE1009A7D93 /* BulgeCircularTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BulgeCircularTabBarVC.m; sourceTree = "<group>"; };
+		EA78A19920C4F307009A7D93 /* MultipleBulgeCircularTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipleBulgeCircularTabBarVC.h; sourceTree = "<group>"; };
+		EA78A19A20C4F307009A7D93 /* MultipleBulgeCircularTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleBulgeCircularTabBarVC.m; sourceTree = "<group>"; };
+		EA78A19D20C4F396009A7D93 /* MultipleBulgeHybridTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipleBulgeHybridTabBarVC.h; sourceTree = "<group>"; };
+		EA78A19E20C4F396009A7D93 /* MultipleBulgeHybridTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleBulgeHybridTabBarVC.m; sourceTree = "<group>"; };
+		EA78A1A120C4F5D7009A7D93 /* BulgeSquareTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BulgeSquareTabBarVC.h; sourceTree = "<group>"; };
+		EA78A1A220C4F5D7009A7D93 /* BulgeSquareTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BulgeSquareTabBarVC.m; sourceTree = "<group>"; };
+		EA78A1A520C4F978009A7D93 /* ImageTranslucentTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageTranslucentTabBarVC.h; sourceTree = "<group>"; };
+		EA78A1A620C4F978009A7D93 /* ImageTranslucentTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTranslucentTabBarVC.m; sourceTree = "<group>"; };
+		EA78A1A920C4FD44009A7D93 /* ItemBackgroundImageTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemBackgroundImageTabBarVC.h; sourceTree = "<group>"; };
+		EA78A1AA20C4FD44009A7D93 /* ItemBackgroundImageTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemBackgroundImageTabBarVC.m; sourceTree = "<group>"; };
+		EA78A1AD20C5016B009A7D93 /* HybridGradientHelperTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HybridGradientHelperTabBarVC.h; sourceTree = "<group>"; };
+		EA78A1AE20C5016B009A7D93 /* HybridGradientHelperTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HybridGradientHelperTabBarVC.m; sourceTree = "<group>"; };
+		EA78A1B220C501D9009A7D93 /* WHGradientHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHGradientHelper.m; sourceTree = "<group>"; };
+		EA78A1B320C501D9009A7D93 /* WHGradientHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHGradientHelper.h; sourceTree = "<group>"; };
+		EA78A1B620C50584009A7D93 /* WHGradientHelperGradientTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHGradientHelperGradientTabBarVC.h; sourceTree = "<group>"; };
+		EA78A1B720C50584009A7D93 /* WHGradientHelperGradientTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHGradientHelperGradientTabBarVC.m; sourceTree = "<group>"; };
+		EA78A1BA20C506E3009A7D93 /* WHGradientHelperGradientTabBarVC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHGradientHelperGradientTabBarVC2.h; sourceTree = "<group>"; };
+		EA78A1BB20C506E3009A7D93 /* WHGradientHelperGradientTabBarVC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHGradientHelperGradientTabBarVC2.m; sourceTree = "<group>"; };
+		EA78A1BF20C507CC009A7D93 /* WHGradientHelperGradientTabBarVC3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHGradientHelperGradientTabBarVC3.h; sourceTree = "<group>"; };
+		EA78A1C020C507CC009A7D93 /* WHGradientHelperGradientTabBarVC3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHGradientHelperGradientTabBarVC3.m; sourceTree = "<group>"; };
+		EA78A1C320C509FD009A7D93 /* WHGradientHelperGradientTabBarVC4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHGradientHelperGradientTabBarVC4.h; sourceTree = "<group>"; };
+		EA78A1C420C509FD009A7D93 /* WHGradientHelperGradientTabBarVC4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHGradientHelperGradientTabBarVC4.m; sourceTree = "<group>"; };
+		EA78A1C720C50FA2009A7D93 /* WHGradientHelperGradientItemTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHGradientHelperGradientItemTabBarVC.h; sourceTree = "<group>"; };
+		EA78A1C820C50FA2009A7D93 /* WHGradientHelperGradientItemTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHGradientHelperGradientItemTabBarVC.m; sourceTree = "<group>"; };
+		EA78A1CC20C51170009A7D93 /* WeiBoTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeiBoTabBarVC.h; sourceTree = "<group>"; };
+		EA78A1CD20C51170009A7D93 /* WeiBoTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiBoTabBarVC.m; sourceTree = "<group>"; };
+		EA78A1D020C51A1D009A7D93 /* SaltedFishTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaltedFishTabBarVC.h; sourceTree = "<group>"; };
+		EA78A1D120C51A1D009A7D93 /* SaltedFishTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaltedFishTabBarVC.m; sourceTree = "<group>"; };
+		EA78A1D420C5261B009A7D93 /* JianShuTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JianShuTabBarVC.h; sourceTree = "<group>"; };
+		EA78A1D520C5261B009A7D93 /* JianShuTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JianShuTabBarVC.m; sourceTree = "<group>"; };
+		EA78A1D820C52CB5009A7D93 /* PushHiddenTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushHiddenTabBarVC.h; sourceTree = "<group>"; };
+		EA78A1D920C52CB5009A7D93 /* PushHiddenTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushHiddenTabBarVC.m; sourceTree = "<group>"; };
+		EA78A1DC20C52CF0009A7D93 /* TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		EA78A1DD20C52CF0009A7D93 /* TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		EA78A1DE20C52CF0009A7D93 /* TestVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestVC.xib; sourceTree = "<group>"; };
+		EA78A1E420C52E03009A7D93 /* TestPushHiddenVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPushHiddenVC.h; sourceTree = "<group>"; };
+		EA78A1E520C52E03009A7D93 /* TestPushHiddenVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPushHiddenVC.m; sourceTree = "<group>"; };
+		EA78A1E620C52E03009A7D93 /* TestPushHiddenVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestPushHiddenVC.xib; sourceTree = "<group>"; };
+		EA78A1EC20C52E5D009A7D93 /* TestHiddenVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestHiddenVC.h; sourceTree = "<group>"; };
+		EA78A1ED20C52E5D009A7D93 /* TestHiddenVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestHiddenVC.m; sourceTree = "<group>"; };
+		EA78A1EE20C52E5D009A7D93 /* TestHiddenVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestHiddenVC.xib; sourceTree = "<group>"; };
+		EA78A1F420C532AB009A7D93 /* TestGetTabBarItemVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGetTabBarItemVC.h; sourceTree = "<group>"; };
+		EA78A1F520C532AB009A7D93 /* TestGetTabBarItemVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGetTabBarItemVC.m; sourceTree = "<group>"; };
+		EA78A1F620C532AB009A7D93 /* TestGetTabBarItemVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestGetTabBarItemVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA78A12020C29A40009A7D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA3D8CFAD1A1C27077887B9 /* libPods-AxcAE_TabBar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA78A13820C29A41009A7D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA78A14320C29A41009A7D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A27A2E5C9A903A27D6D3F86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50D0BCE7F245C7D3F109E071 /* libPods-AxcAE_TabBar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41ECA1B4D31EE323025C7E20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				194D03BE13945668A3E3B928 /* Pods-AxcAE_TabBar.debug.xcconfig */,
+				D8E323BEB4E5C2DB5C39E773 /* Pods-AxcAE_TabBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA78A11A20C29A40009A7D93 = {
+			isa = PBXGroup;
+			children = (
+				EA78A12520C29A40009A7D93 /* AxcAE_TabBar */,
+				EA78A13E20C29A41009A7D93 /* AxcAE_TabBarTests */,
+				EA78A14920C29A41009A7D93 /* AxcAE_TabBarUITests */,
+				EA78A12420C29A40009A7D93 /* Products */,
+				41ECA1B4D31EE323025C7E20 /* Pods */,
+				1A27A2E5C9A903A27D6D3F86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA78A12420C29A40009A7D93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A12320C29A40009A7D93 /* AxcAE_TabBar.app */,
+				EA78A13B20C29A41009A7D93 /* AxcAE_TabBarTests.xctest */,
+				EA78A14620C29A41009A7D93 /* AxcAE_TabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA78A12520C29A40009A7D93 /* AxcAE_TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A12620C29A40009A7D93 /* AppDelegate.h */,
+				EA78A12720C29A40009A7D93 /* AppDelegate.m */,
+				EA78A12920C29A40009A7D93 /* ViewController.h */,
+				EA78A12A20C29A40009A7D93 /* ViewController.m */,
+				EA78A1DB20C52CDD009A7D93 /* TestVC */,
+				EA78A1B020C501CD009A7D93 /* OtherLib */,
+				EA78A16420C29AEC009A7D93 /* SubTabBarVC */,
+				EA78A1CA20C51148009A7D93 /* 实战示例 */,
+				EA78A1D720C52C89009A7D93 /* 适配示例 */,
+				EA78A16320C29AD8009A7D93 /* Other */,
+				EA78A15820C29A55009A7D93 /* AxcAE_TabBar */,
+			);
+			path = AxcAE_TabBar;
+			sourceTree = "<group>";
+		};
+		EA78A13E20C29A41009A7D93 /* AxcAE_TabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A13F20C29A41009A7D93 /* AxcAE_TabBarTests.m */,
+				EA78A14120C29A41009A7D93 /* Info.plist */,
+			);
+			path = AxcAE_TabBarTests;
+			sourceTree = "<group>";
+		};
+		EA78A14920C29A41009A7D93 /* AxcAE_TabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A14A20C29A41009A7D93 /* AxcAE_TabBarUITests.m */,
+				EA78A14C20C29A41009A7D93 /* Info.plist */,
+			);
+			path = AxcAE_TabBarUITests;
+			sourceTree = "<group>";
+		};
+		EA78A15820C29A55009A7D93 /* AxcAE_TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A15F20C29A55009A7D93 /* AxcAE_TabBarBadge.h */,
+				EA78A15920C29A55009A7D93 /* AxcAE_TabBarBadge.m */,
+				EA78A15A20C29A55009A7D93 /* AxcAE_TabBarItem.h */,
+				EA78A15E20C29A55009A7D93 /* AxcAE_TabBarItem.m */,
+				EA78A15D20C29A55009A7D93 /* AxcAE_TabBar.h */,
+				EA78A15B20C29A55009A7D93 /* AxcAE_TabBar.m */,
+				EA78A15C20C29A55009A7D93 /* AxcAE_TabBarDefine.h */,
+			);
+			path = AxcAE_TabBar;
+			sourceTree = "<group>";
+		};
+		EA78A16320C29AD8009A7D93 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A16920C29BE5009A7D93 /* PrefixHeader.pch */,
+				EA78A12C20C29A40009A7D93 /* Main.storyboard */,
+				EA78A12F20C29A41009A7D93 /* Assets.xcassets */,
+				EA78A13120C29A41009A7D93 /* LaunchScreen.storyboard */,
+				EA78A13420C29A41009A7D93 /* Info.plist */,
+				EA78A13520C29A41009A7D93 /* main.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		EA78A16420C29AEC009A7D93 /* SubTabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A16A20C29D07009A7D93 /* BaseTabBar */,
+				EA78A16520C29B79009A7D93 /* 基础使用 */,
+				EA78A18720C4E4B6009A7D93 /* 自定义TabBar背景图片 */,
+				EA78A1A420C4F92D009A7D93 /* 自定义TabBar背景图+模糊毛玻璃 */,
+				EA78A18C20C4E61A009A7D93 /* 自定义TabBar背景图+选中颜色 */,
+				EA78A19420C4EBA4009A7D93 /* TabBar中间圆形凸出 */,
+				EA78A19820C4F2E1009A7D93 /* TabBar多重圆形凸出 */,
+				EA78A1A020C4F5A7009A7D93 /* TabBar矩形图片凸出 */,
+				EA78A19C20C4F373009A7D93 /* TabBar多重混合凸出 */,
+				EA78A16E20C4CFDB009A7D93 /* 按钮自定义大小 */,
+				EA78A17220C4D382009A7D93 /* 按钮自定义对齐模式 */,
+				EA78A17620C4D5C8009A7D93 /* 按钮自定义布局模式 */,
+				EA78A17A20C4DCC9009A7D93 /* 按钮自定义徽标 */,
+				EA78A17E20C4DEC9009A7D93 /* 按钮自定义交互效果 */,
+				EA78A19020C4E75E009A7D93 /* 按钮自定义渲染图片 */,
+				EA78A18320C4E2FC009A7D93 /* 按钮自定义背景颜色 */,
+				EA78A1A820C4FD27009A7D93 /* 按钮自定义背景图 */,
+				EA78A1AC20C5012E009A7D93 /* 与WHGradientHelper混合使用 */,
+				EA78A1B520C50554009A7D93 /* WHGradientHelper渐变色 */,
+				EA78A1B920C506D5009A7D93 /* WHGradientHelper渐变色2 */,
+				EA78A1BE20C507B9009A7D93 /* WHGradientHelper渐变色3 */,
+				EA78A1C220C509EE009A7D93 /* WHGradientHelper渐变色4 */,
+				EA78A1C620C50F84009A7D93 /* WHGradientHelper按钮渐变色 */,
+			);
+			path = SubTabBarVC;
+			sourceTree = "<group>";
+		};
+		EA78A16520C29B79009A7D93 /* 基础使用 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A16620C29B9D009A7D93 /* BasedUsingTabBarVC.h */,
+				EA78A16720C29B9D009A7D93 /* BasedUsingTabBarVC.m */,
+			);
+			path = "基础使用";
+			sourceTree = "<group>";
+		};
+		EA78A16A20C29D07009A7D93 /* BaseTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A16B20C29D13009A7D93 /* BaseTabBar.h */,
+				EA78A16C20C29D13009A7D93 /* BaseTabBar.m */,
+			);
+			path = BaseTabBar;
+			sourceTree = "<group>";
+		};
+		EA78A16E20C4CFDB009A7D93 /* 按钮自定义大小 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A16F20C4D035009A7D93 /* ItemSizeTabBarVC.h */,
+				EA78A17020C4D035009A7D93 /* ItemSizeTabBarVC.m */,
+			);
+			path = "按钮自定义大小";
+			sourceTree = "<group>";
+		};
+		EA78A17220C4D382009A7D93 /* 按钮自定义对齐模式 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A17320C4D3C8009A7D93 /* ItemSizeAlignmentTabBarVC.h */,
+				EA78A17420C4D3C8009A7D93 /* ItemSizeAlignmentTabBarVC.m */,
+			);
+			path = "按钮自定义对齐模式";
+			sourceTree = "<group>";
+		};
+		EA78A17620C4D5C8009A7D93 /* 按钮自定义布局模式 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A17720C4D600009A7D93 /* ItemSizeLayoutTabBarVC.h */,
+				EA78A17820C4D600009A7D93 /* ItemSizeLayoutTabBarVC.m */,
+			);
+			path = "按钮自定义布局模式";
+			sourceTree = "<group>";
+		};
+		EA78A17A20C4DCC9009A7D93 /* 按钮自定义徽标 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A17B20C4DCFC009A7D93 /* ItemCustomBadgeTabBarVC.h */,
+				EA78A17C20C4DCFC009A7D93 /* ItemCustomBadgeTabBarVC.m */,
+			);
+			path = "按钮自定义徽标";
+			sourceTree = "<group>";
+		};
+		EA78A17E20C4DEC9009A7D93 /* 按钮自定义交互效果 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A17F20C4DEEF009A7D93 /* ItemCustomAnimationTabBarVC.h */,
+				EA78A18020C4DEEF009A7D93 /* ItemCustomAnimationTabBarVC.m */,
+			);
+			path = "按钮自定义交互效果";
+			sourceTree = "<group>";
+		};
+		EA78A18320C4E2FC009A7D93 /* 按钮自定义背景颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A18420C4E321009A7D93 /* ItemBackgroundColorTabBarVC.h */,
+				EA78A18520C4E321009A7D93 /* ItemBackgroundColorTabBarVC.m */,
+			);
+			path = "按钮自定义背景颜色";
+			sourceTree = "<group>";
+		};
+		EA78A18720C4E4B6009A7D93 /* 自定义TabBar背景图片 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A18820C4E4E7009A7D93 /* CustomImageTabBarVC.h */,
+				EA78A18920C4E4E7009A7D93 /* CustomImageTabBarVC.m */,
+			);
+			path = "自定义TabBar背景图片";
+			sourceTree = "<group>";
+		};
+		EA78A18C20C4E61A009A7D93 /* 自定义TabBar背景图+选中颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A18D20C4E636009A7D93 /* CustomImageSelColorTabBarVC.h */,
+				EA78A18E20C4E636009A7D93 /* CustomImageSelColorTabBarVC.m */,
+			);
+			path = "自定义TabBar背景图+选中颜色";
+			sourceTree = "<group>";
+		};
+		EA78A19020C4E75E009A7D93 /* 按钮自定义渲染图片 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A19120C4E781009A7D93 /* ItemTingColorTabBarVC.h */,
+				EA78A19220C4E781009A7D93 /* ItemTingColorTabBarVC.m */,
+			);
+			path = "按钮自定义渲染图片";
+			sourceTree = "<group>";
+		};
+		EA78A19420C4EBA4009A7D93 /* TabBar中间圆形凸出 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A19520C4EBE1009A7D93 /* BulgeCircularTabBarVC.h */,
+				EA78A19620C4EBE1009A7D93 /* BulgeCircularTabBarVC.m */,
+			);
+			path = "TabBar中间圆形凸出";
+			sourceTree = "<group>";
+		};
+		EA78A19820C4F2E1009A7D93 /* TabBar多重圆形凸出 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A19920C4F307009A7D93 /* MultipleBulgeCircularTabBarVC.h */,
+				EA78A19A20C4F307009A7D93 /* MultipleBulgeCircularTabBarVC.m */,
+			);
+			path = "TabBar多重圆形凸出";
+			sourceTree = "<group>";
+		};
+		EA78A19C20C4F373009A7D93 /* TabBar多重混合凸出 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A19D20C4F396009A7D93 /* MultipleBulgeHybridTabBarVC.h */,
+				EA78A19E20C4F396009A7D93 /* MultipleBulgeHybridTabBarVC.m */,
+			);
+			path = "TabBar多重混合凸出";
+			sourceTree = "<group>";
+		};
+		EA78A1A020C4F5A7009A7D93 /* TabBar矩形图片凸出 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A1A120C4F5D7009A7D93 /* BulgeSquareTabBarVC.h */,
+				EA78A1A220C4F5D7009A7D93 /* BulgeSquareTabBarVC.m */,
+			);
+			path = "TabBar矩形图片凸出";
+			sourceTree = "<group>";
+		};
+		EA78A1A420C4F92D009A7D93 /* 自定义TabBar背景图+模糊毛玻璃 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A1A520C4F978009A7D93 /* ImageTranslucentTabBarVC.h */,
+				EA78A1A620C4F978009A7D93 /* ImageTranslucentTabBarVC.m */,
+			);
+			path = "自定义TabBar背景图+模糊毛玻璃";
+			sourceTree = "<group>";
+		};
+		EA78A1A820C4FD27009A7D93 /* 按钮自定义背景图 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A1A920C4FD44009A7D93 /* ItemBackgroundImageTabBarVC.h */,
+				EA78A1AA20C4FD44009A7D93 /* ItemBackgroundImageTabBarVC.m */,
+			);
+			path = "按钮自定义背景图";
+			sourceTree = "<group>";
+		};
+		EA78A1AC20C5012E009A7D93 /* 与WHGradientHelper混合使用 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A1AD20C5016B009A7D93 /* HybridGradientHelperTabBarVC.h */,
+				EA78A1AE20C5016B009A7D93 /* HybridGradientHelperTabBarVC.m */,
+			);
+			path = "与WHGradientHelper混合使用";
+			sourceTree = "<group>";
+		};
+		EA78A1B020C501CD009A7D93 /* OtherLib */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A1B120C501D9009A7D93 /* WHGradientHelper */,
+			);
+			path = OtherLib;
+			sourceTree = "<group>";
+		};
+		EA78A1B120C501D9009A7D93 /* WHGradientHelper */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A1B220C501D9009A7D93 /* WHGradientHelper.m */,
+				EA78A1B320C501D9009A7D93 /* WHGradientHelper.h */,
+			);
+			path = WHGradientHelper;
+			sourceTree = "<group>";
+		};
+		EA78A1B520C50554009A7D93 /* WHGradientHelper渐变色 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A1B620C50584009A7D93 /* WHGradientHelperGradientTabBarVC.h */,
+				EA78A1B720C50584009A7D93 /* WHGradientHelperGradientTabBarVC.m */,
+			);
+			path = "WHGradientHelper渐变色";
+			sourceTree = "<group>";
+		};
+		EA78A1B920C506D5009A7D93 /* WHGradientHelper渐变色2 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A1BA20C506E3009A7D93 /* WHGradientHelperGradientTabBarVC2.h */,
+				EA78A1BB20C506E3009A7D93 /* WHGradientHelperGradientTabBarVC2.m */,
+			);
+			path = "WHGradientHelper渐变色2";
+			sourceTree = "<group>";
+		};
+		EA78A1BE20C507B9009A7D93 /* WHGradientHelper渐变色3 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A1BF20C507CC009A7D93 /* WHGradientHelperGradientTabBarVC3.h */,
+				EA78A1C020C507CC009A7D93 /* WHGradientHelperGradientTabBarVC3.m */,
+			);
+			path = "WHGradientHelper渐变色3";
+			sourceTree = "<group>";
+		};
+		EA78A1C220C509EE009A7D93 /* WHGradientHelper渐变色4 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A1C320C509FD009A7D93 /* WHGradientHelperGradientTabBarVC4.h */,
+				EA78A1C420C509FD009A7D93 /* WHGradientHelperGradientTabBarVC4.m */,
+			);
+			path = "WHGradientHelper渐变色4";
+			sourceTree = "<group>";
+		};
+		EA78A1C620C50F84009A7D93 /* WHGradientHelper按钮渐变色 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A1C720C50FA2009A7D93 /* WHGradientHelperGradientItemTabBarVC.h */,
+				EA78A1C820C50FA2009A7D93 /* WHGradientHelperGradientItemTabBarVC.m */,
+			);
+			path = "WHGradientHelper按钮渐变色";
+			sourceTree = "<group>";
+		};
+		EA78A1CA20C51148009A7D93 /* 实战示例 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A1D320C52600009A7D93 /* 简书TabBar选项卡 */,
+				EA78A1CF20C519FB009A7D93 /* 咸鱼TabBar选项卡 */,
+				EA78A1CB20C51155009A7D93 /* 微博TabBar选项卡 */,
+			);
+			path = "实战示例";
+			sourceTree = "<group>";
+		};
+		EA78A1CB20C51155009A7D93 /* 微博TabBar选项卡 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A1CC20C51170009A7D93 /* WeiBoTabBarVC.h */,
+				EA78A1CD20C51170009A7D93 /* WeiBoTabBarVC.m */,
+			);
+			path = "微博TabBar选项卡";
+			sourceTree = "<group>";
+		};
+		EA78A1CF20C519FB009A7D93 /* 咸鱼TabBar选项卡 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A1D020C51A1D009A7D93 /* SaltedFishTabBarVC.h */,
+				EA78A1D120C51A1D009A7D93 /* SaltedFishTabBarVC.m */,
+			);
+			path = "咸鱼TabBar选项卡";
+			sourceTree = "<group>";
+		};
+		EA78A1D320C52600009A7D93 /* 简书TabBar选项卡 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A1D420C5261B009A7D93 /* JianShuTabBarVC.h */,
+				EA78A1D520C5261B009A7D93 /* JianShuTabBarVC.m */,
+			);
+			path = "简书TabBar选项卡";
+			sourceTree = "<group>";
+		};
+		EA78A1D720C52C89009A7D93 /* 适配示例 */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A1D820C52CB5009A7D93 /* PushHiddenTabBarVC.h */,
+				EA78A1D920C52CB5009A7D93 /* PushHiddenTabBarVC.m */,
+			);
+			path = "适配示例";
+			sourceTree = "<group>";
+		};
+		EA78A1DB20C52CDD009A7D93 /* TestVC */ = {
+			isa = PBXGroup;
+			children = (
+				EA78A1DC20C52CF0009A7D93 /* TestVC.h */,
+				EA78A1DD20C52CF0009A7D93 /* TestVC.m */,
+				EA78A1DE20C52CF0009A7D93 /* TestVC.xib */,
+				EA78A1E420C52E03009A7D93 /* TestPushHiddenVC.h */,
+				EA78A1E520C52E03009A7D93 /* TestPushHiddenVC.m */,
+				EA78A1E620C52E03009A7D93 /* TestPushHiddenVC.xib */,
+				EA78A1EC20C52E5D009A7D93 /* TestHiddenVC.h */,
+				EA78A1ED20C52E5D009A7D93 /* TestHiddenVC.m */,
+				EA78A1EE20C52E5D009A7D93 /* TestHiddenVC.xib */,
+				EA78A1F420C532AB009A7D93 /* TestGetTabBarItemVC.h */,
+				EA78A1F520C532AB009A7D93 /* TestGetTabBarItemVC.m */,
+				EA78A1F620C532AB009A7D93 /* TestGetTabBarItemVC.xib */,
+			);
+			path = TestVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA78A12220C29A40009A7D93 /* AxcAE_TabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA78A14F20C29A41009A7D93 /* Build configuration list for PBXNativeTarget "AxcAE_TabBar" */;
+			buildPhases = (
+				A1C47B36B966F5537977F4BD /* [CP] Check Pods Manifest.lock */,
+				EA78A11F20C29A40009A7D93 /* Sources */,
+				EA78A12020C29A40009A7D93 /* Frameworks */,
+				EA78A12120C29A40009A7D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AxcAE_TabBar;
+			productName = AxcAE_TabBar;
+			productReference = EA78A12320C29A40009A7D93 /* AxcAE_TabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA78A13A20C29A41009A7D93 /* AxcAE_TabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA78A15220C29A41009A7D93 /* Build configuration list for PBXNativeTarget "AxcAE_TabBarTests" */;
+			buildPhases = (
+				EA78A13720C29A41009A7D93 /* Sources */,
+				EA78A13820C29A41009A7D93 /* Frameworks */,
+				EA78A13920C29A41009A7D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA78A13D20C29A41009A7D93 /* PBXTargetDependency */,
+			);
+			name = AxcAE_TabBarTests;
+			productName = AxcAE_TabBarTests;
+			productReference = EA78A13B20C29A41009A7D93 /* AxcAE_TabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA78A14520C29A41009A7D93 /* AxcAE_TabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA78A15520C29A41009A7D93 /* Build configuration list for PBXNativeTarget "AxcAE_TabBarUITests" */;
+			buildPhases = (
+				EA78A14220C29A41009A7D93 /* Sources */,
+				EA78A14320C29A41009A7D93 /* Frameworks */,
+				EA78A14420C29A41009A7D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA78A14820C29A41009A7D93 /* PBXTargetDependency */,
+			);
+			name = AxcAE_TabBarUITests;
+			productName = AxcAE_TabBarUITests;
+			productReference = EA78A14620C29A41009A7D93 /* AxcAE_TabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA78A11B20C29A40009A7D93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = AxcLogo;
+				TargetAttributes = {
+					EA78A12220C29A40009A7D93 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					EA78A13A20C29A41009A7D93 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = EA78A12220C29A40009A7D93;
+					};
+					EA78A14520C29A41009A7D93 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = EA78A12220C29A40009A7D93;
+					};
+				};
+			};
+			buildConfigurationList = EA78A11E20C29A40009A7D93 /* Build configuration list for PBXProject "AxcAE_TabBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA78A11A20C29A40009A7D93;
+			productRefGroup = EA78A12420C29A40009A7D93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA78A12220C29A40009A7D93 /* AxcAE_TabBar */,
+				EA78A13A20C29A41009A7D93 /* AxcAE_TabBarTests */,
+				EA78A14520C29A41009A7D93 /* AxcAE_TabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA78A12120C29A40009A7D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA78A1F020C52E5D009A7D93 /* TestHiddenVC.xib in Resources */,
+				EA78A1E020C52CF0009A7D93 /* TestVC.xib in Resources */,
+				EA78A13320C29A41009A7D93 /* LaunchScreen.storyboard in Resources */,
+				EA78A13020C29A41009A7D93 /* Assets.xcassets in Resources */,
+				EA78A1F820C532AB009A7D93 /* TestGetTabBarItemVC.xib in Resources */,
+				EA78A1E820C52E03009A7D93 /* TestPushHiddenVC.xib in Resources */,
+				EA78A12E20C29A40009A7D93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA78A13920C29A41009A7D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA78A14420C29A41009A7D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1C47B36B966F5537977F4BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AxcAE_TabBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA78A11F20C29A40009A7D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA78A1B420C501D9009A7D93 /* WHGradientHelper.m in Sources */,
+				EA78A16120C29A55009A7D93 /* AxcAE_TabBar.m in Sources */,
+				EA78A12B20C29A40009A7D93 /* ViewController.m in Sources */,
+				EA78A1DF20C52CF0009A7D93 /* TestVC.m in Sources */,
+				EA78A1AB20C4FD44009A7D93 /* ItemBackgroundImageTabBarVC.m in Sources */,
+				EA78A1C520C509FD009A7D93 /* WHGradientHelperGradientTabBarVC4.m in Sources */,
+				EA78A19B20C4F307009A7D93 /* MultipleBulgeCircularTabBarVC.m in Sources */,
+				EA78A1A320C4F5D7009A7D93 /* BulgeSquareTabBarVC.m in Sources */,
+				EA78A1BC20C506E3009A7D93 /* WHGradientHelperGradientTabBarVC2.m in Sources */,
+				EA78A1C920C50FA2009A7D93 /* WHGradientHelperGradientItemTabBarVC.m in Sources */,
+				EA78A13620C29A41009A7D93 /* main.m in Sources */,
+				EA78A1AF20C5016B009A7D93 /* HybridGradientHelperTabBarVC.m in Sources */,
+				EA78A16220C29A55009A7D93 /* AxcAE_TabBarItem.m in Sources */,
+				EA78A16820C29B9D009A7D93 /* BasedUsingTabBarVC.m in Sources */,
+				EA78A16020C29A55009A7D93 /* AxcAE_TabBarBadge.m in Sources */,
+				EA78A18A20C4E4E7009A7D93 /* CustomImageTabBarVC.m in Sources */,
+				EA78A17520C4D3C8009A7D93 /* ItemSizeAlignmentTabBarVC.m in Sources */,
+				EA78A18120C4DEEF009A7D93 /* ItemCustomAnimationTabBarVC.m in Sources */,
+				EA78A1E720C52E03009A7D93 /* TestPushHiddenVC.m in Sources */,
+				EA78A17120C4D035009A7D93 /* ItemSizeTabBarVC.m in Sources */,
+				EA78A16D20C29D13009A7D93 /* BaseTabBar.m in Sources */,
+				EA78A1CE20C51170009A7D93 /* WeiBoTabBarVC.m in Sources */,
+				EA78A1DA20C52CB5009A7D93 /* PushHiddenTabBarVC.m in Sources */,
+				EA78A17920C4D600009A7D93 /* ItemSizeLayoutTabBarVC.m in Sources */,
+				EA78A1F720C532AB009A7D93 /* TestGetTabBarItemVC.m in Sources */,
+				EA78A19320C4E781009A7D93 /* ItemTingColorTabBarVC.m in Sources */,
+				EA78A19F20C4F396009A7D93 /* MultipleBulgeHybridTabBarVC.m in Sources */,
+				EA78A1B820C50584009A7D93 /* WHGradientHelperGradientTabBarVC.m in Sources */,
+				EA78A1EF20C52E5D009A7D93 /* TestHiddenVC.m in Sources */,
+				EA78A1A720C4F978009A7D93 /* ImageTranslucentTabBarVC.m in Sources */,
+				EA78A17D20C4DCFC009A7D93 /* ItemCustomBadgeTabBarVC.m in Sources */,
+				EA78A12820C29A40009A7D93 /* AppDelegate.m in Sources */,
+				EA78A1D220C51A1D009A7D93 /* SaltedFishTabBarVC.m in Sources */,
+				EA78A19720C4EBE1009A7D93 /* BulgeCircularTabBarVC.m in Sources */,
+				EA78A1C120C507CC009A7D93 /* WHGradientHelperGradientTabBarVC3.m in Sources */,
+				EA78A18F20C4E636009A7D93 /* CustomImageSelColorTabBarVC.m in Sources */,
+				EA78A1D620C5261B009A7D93 /* JianShuTabBarVC.m in Sources */,
+				EA78A18620C4E321009A7D93 /* ItemBackgroundColorTabBarVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA78A13720C29A41009A7D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA78A14020C29A41009A7D93 /* AxcAE_TabBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA78A14220C29A41009A7D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA78A14B20C29A41009A7D93 /* AxcAE_TabBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA78A13D20C29A41009A7D93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA78A12220C29A40009A7D93 /* AxcAE_TabBar */;
+			targetProxy = EA78A13C20C29A41009A7D93 /* PBXContainerItemProxy */;
+		};
+		EA78A14820C29A41009A7D93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA78A12220C29A40009A7D93 /* AxcAE_TabBar */;
+			targetProxy = EA78A14720C29A41009A7D93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA78A12C20C29A40009A7D93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA78A12D20C29A40009A7D93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA78A13120C29A41009A7D93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA78A13220C29A41009A7D93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA78A14D20C29A41009A7D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA78A14E20C29A41009A7D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA78A15020C29A41009A7D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 194D03BE13945668A3E3B928 /* Pods-AxcAE_TabBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPXR757EXU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AxcAE_TabBar/PrefixHeader.pch";
+				INFOPLIST_FILE = AxcAE_TabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AxcLogo-iOS.AxcAE-TabBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA78A15120C29A41009A7D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E323BEB4E5C2DB5C39E773 /* Pods-AxcAE_TabBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPXR757EXU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AxcAE_TabBar/PrefixHeader.pch";
+				INFOPLIST_FILE = AxcAE_TabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AxcLogo-iOS.AxcAE-TabBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA78A15320C29A41009A7D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPXR757EXU;
+				INFOPLIST_FILE = AxcAE_TabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AxcLogo-iOS.AxcAE-TabBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AxcAE_TabBar.app/AxcAE_TabBar";
+			};
+			name = Debug;
+		};
+		EA78A15420C29A41009A7D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPXR757EXU;
+				INFOPLIST_FILE = AxcAE_TabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AxcLogo-iOS.AxcAE-TabBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AxcAE_TabBar.app/AxcAE_TabBar";
+			};
+			name = Release;
+		};
+		EA78A15620C29A41009A7D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPXR757EXU;
+				INFOPLIST_FILE = AxcAE_TabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AxcLogo-iOS.AxcAE-TabBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AxcAE_TabBar;
+			};
+			name = Debug;
+		};
+		EA78A15720C29A41009A7D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPXR757EXU;
+				INFOPLIST_FILE = AxcAE_TabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AxcLogo-iOS.AxcAE-TabBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AxcAE_TabBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA78A11E20C29A40009A7D93 /* Build configuration list for PBXProject "AxcAE_TabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA78A14D20C29A41009A7D93 /* Debug */,
+				EA78A14E20C29A41009A7D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA78A14F20C29A41009A7D93 /* Build configuration list for PBXNativeTarget "AxcAE_TabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA78A15020C29A41009A7D93 /* Debug */,
+				EA78A15120C29A41009A7D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA78A15220C29A41009A7D93 /* Build configuration list for PBXNativeTarget "AxcAE_TabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA78A15320C29A41009A7D93 /* Debug */,
+				EA78A15420C29A41009A7D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA78A15520C29A41009A7D93 /* Build configuration list for PBXNativeTarget "AxcAE_TabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA78A15620C29A41009A7D93 /* Debug */,
+				EA78A15720C29A41009A7D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA78A11B20C29A40009A7D93 /* Project object */;
+}
