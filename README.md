@@ -3,11 +3,45 @@
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![MIT License](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![Platform](https://img.shields.io/badge/platform-%20iOS%20-lightgrey.svg)
+![Pods](https://img.shields.io/badge/CocoaPods-1.5.2.svg)
+
 
 ![AxcAE_TabBar](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/AxcAE_TabBarTitle.png)<br>
 
 AxcAE_TabBar，特效TabBar，以开放为封装核心的TabBar组件，尽量将属性、API等参数全部开放给使用者，能够很方便快速使用的一个TabBar选项卡组件<br><br>
 
+### <a id="功能介绍"></a>功能介绍
+- [x] 支持横竖屏 (已适配iPhone X)
+- [x] 支持自定义Item背景图 
+- [x] 支持自定义Item图标的自定义渲染颜色（tingColor，某种情况再不需要两套TabBar图标啦）
+- [x] 支持自定义Item的触发动画（预设有弹簧、放大缩小、渐变）
+- [x] 支持自定义Item的内部布局
+- [x] 支持自定义Item的内部组件（组件全开放指针，可以直接外部操作属性，如创建之初就能定义个别Item的字体等）
+- [x] 支持自定义Item的内部组件大小
+- [x] 支持自定义Item的内部组件的相关属性（点语法可能会有点长，比如item.iconImageView.ContentMode = ...）
+- [x] 支持自定义TabBar的背景图
+- [x] 支持自定义TabBar的背景图的模糊毛玻璃遮罩
+- [x] 支持自定义TabBar上Item相对在各自单元格内的排布方式以及对齐方式
+- [x] 支持自定义TabBar上Item小气泡(徽标)的左中右排布
+- [x] 支持自定义TabBar的凸起按钮
+- [x] 支持自定义TabBar的凸起按钮触发事件，包括能切换视图
+- [x] 支持自定义TabBar的凸起按钮的位置，只要你想，凸起按钮也可以不一定在中间
+- [x] 支持自定义TabBar的多重凸起按钮，如果遇到奇葩多个凸起按钮的需求，别慌
+- [x] 支持自定义TabBar的多重复合凸起按钮，有圆有方怎么办，循环遍历特殊对待（还能再奇葩么）
+- [x] 支持自定义TabBar的Item自定义大小等
+- [x] 支持TabBar中控制器可获取对应Item的方式
+- [x] 支持TabBar与系统TabBar隐藏的同步
+- [x] 支持TabBar在Push的时候与系统同步Hidden的效果（因为父视图就是系统的TabBar）
+<!-- - [x] 3D Touch快捷菜单 -->
+- [x] 支持并不依赖其他三方库，适配由自行计算Frame
+
+### Feature
+
+> 如果您在使用中有好的需求及建议，或者遇到什么bug，欢迎随时issue，我会及时的回复
+ 
+
+<br>
+<br>
 ![主示例图](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/Main%20screen%20shot.png)<br><br><br>
 模仿部分主流app的TabBar设置<br>
 ![所有示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_0.gif)<br>
@@ -59,4 +93,8 @@ AxcAE_TabBar，特效TabBar，以开放为封装核心的TabBar组件，尽量�
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_23.gif)<br>
 按钮其他常用测试<br>
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_24.gif)<br>
+
+### 更新日志
+● 1.0.0: 重新适配iPhoneX，以及部分坐标计算出现的错误; 
+<!--> [更多更新日志](https://github.com/longitachi/ZLPhotoBrowser/blob/master/UPDATELOG.md) -->
 
