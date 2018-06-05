@@ -10,10 +10,9 @@
 
 AxcAE_TabBar，特效TabBar，以开放为封装核心的TabBar组件，尽量将属性、API等参数全部开放给使用者，能够很方便快速使用的一个TabBar选项卡组件<br><br>
 
-### <a id="使用方法"></a>使用方法
+### <a id="使用方法"></a>使用/安装
 
-第一步：
-* Manually 
+* 第一种：手动  
   * 1.找到包含：</br>
    `AxcAE_TabBar.h.m`、</br>
    `AxcAE_TabBarBadge.h.m`、</br>
@@ -22,7 +21,7 @@ AxcAE_TabBar，特效TabBar，以开放为封装核心的TabBar组件，尽量�
   的`AxcAE_TabBar`文件夹;</br>
   * 2.直接把`AxcAE_TabBar`文件夹拖入到您的工程中;
   * 3.导入 `"AxcAE_TabBar.h"`
-* Cocoapods
+* 第二种：Cocoapods
   * 1.在Podfile 中添加 `pod 'AxcAE_TabBar'`
   * 2.执行 `pod setup`
   * 3.执行 `pod install` 或 `pod update`
@@ -55,13 +54,14 @@ AxcAE_TabBar，特效TabBar，以开放为封装核心的TabBar组件，尽量�
 
 
 
-### Feature
+### 意见
 
 > 如果您在使用中有好的需求及建议，或者遇到什么bug，欢迎随时issue，我会及时的回复
  
+### 预览
+<br>
+<br>
 
-<br>
-<br>
 ![主示例图](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/Main%20screen%20shot.png)<br><br><br>
 模仿部分主流app的TabBar设置<br>
 ![所有示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_0.gif)<br>
