@@ -10,6 +10,24 @@
 
 AxcAE_TabBar，特效TabBar，以开放为封装核心的TabBar组件，尽量将属性、API等参数全部开放给使用者，能够很方便快速使用的一个TabBar选项卡组件<br><br>
 
+### <a id="使用方法"></a>使用方法
+
+第一步：
+* Manually 
+  * 1.找到包含：</br>
+   `AxcAE_TabBar.h.m`、</br>
+   `AxcAE_TabBarBadge.h.m`、</br>
+   `AxcAE_TabBarItem.h.m`、</br>
+   `AxcAE_TabBarDefine.h`</br>
+  的`AxcAE_TabBar`文件夹;</br>
+  * 2.直接把`AxcAE_TabBar`文件夹拖入到您的工程中;
+  * 3.导入 `"AxcAE_TabBar.h"`
+* Cocoapods
+  * 1.在Podfile 中添加 `pod 'AxcAE_TabBar'`
+  * 2.执行 `pod setup`
+  * 3.执行 `pod install` 或 `pod update`
+  * 4.导入 `#import <AxcAE_TabBar/AxcAE_TabBar.h>`
+
 ### <a id="功能介绍"></a>功能介绍
 - [x] 支持横竖屏 (已适配iPhone X)
 - [x] 支持自定义Item背景图 
@@ -34,6 +52,8 @@ AxcAE_TabBar，特效TabBar，以开放为封装核心的TabBar组件，尽量�
 - [x] 支持TabBar在Push的时候与系统同步Hidden的效果（因为父视图就是系统的TabBar）
 <!-- - [x] 3D Touch快捷菜单 -->
 - [x] 支持并不依赖其他三方库，适配由自行计算Frame
+
+
 
 ### Feature
 
