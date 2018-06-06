@@ -65,58 +65,58 @@ IDE：Xcode 9.0 及以上版本 (由于适配iPhone X使用iOS11api，所以请�
 > 如果您在使用中有好的需求及建议，或者遇到什么bug，欢迎随时issue，我会及时的回复
  
 # 预览
-## 示例内容部分
 ![主示例图](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/Main%20screen%20shot.png)
-## 模仿部分主流app的TabBar设置
+## 示例内容部分
 ![所有示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_0.gif)
-## 带背景图+选中后背景颜色
+## 模仿部分主流app的TabBar设置
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_1.gif)
-## 背景图片+模糊毛玻璃
+## 带背景图+选中后背景颜色
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_2.gif)
-## 中间圆形凸起
+## 背景图片+模糊毛玻璃
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_3.gif)
-## 多重圆形凸起
+## 中间圆形凸起
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_4.gif)
-## 中间矩形凸起
+## 多重圆形凸起
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_5.gif)
-## 多重混合凸起
+## 中间矩形凸起
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_6.gif)
-## 按钮自定义大小
+## 多重混合凸起
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_7.gif)
-## 按钮相对在TabBar单元格中的上、左、右、下、左上、右上、左下、右下布局
+## 按钮自定义大小
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_8.gif)
-## 按钮内部 文上图下、图左文右、文左图右、全图、全文模式
+## 按钮相对在TabBar单元格中的上、左、右、下、左上、右上、左下、右下布局
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_9.gif)
-## 徽标居上左中右排布模式
+## 按钮内部 文上图下、图左文右、文左图右、全图、全文模式
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_10.gif)
-## 按钮独立点击动画特效设置
+## 徽标居上左中右排布模式
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_11.gif)
-## 按钮独立选中颜色设置
+## 按钮独立点击动画特效设置
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_12.gif)
-## 按钮独立选中背景颜色设置
+## 按钮独立选中颜色设置
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_13.gif)
-## 按钮独立背景图片设置
+## 按钮独立选中背景颜色设置
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_14.gif)
-## 与渐变色三方库混合使用，背景动态渐变
+## 按钮独立背景图片设置
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_15.gif)
-## 背景从上到下黑到灰渐变
+## 与渐变色三方库混合使用，背景动态渐变
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_16.gif)
-## 背景从上到下渐变2
+## 背景从上到下黑到灰渐变
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_17.gif)
-## 背景从左到右红到橘渐变 + 按钮独立选中背景色
+## 背景从上到下渐变2
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_18.gif)
-## 背景从左下到右上渐变
+## 背景从左到右红到橘渐变 + 按钮独立选中背景色
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_19.gif)
-## 背景渐变+按钮独立渐变
+## 背景从左下到右上渐变
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_20.gif)
-## 仿微博Tabbar
+## 背景渐变+按钮独立渐变
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_21.gif)
-## 仿咸鱼TabBar
+## 仿微博Tabbar
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_22.gif)
-## 仿简书TabBar
+## 仿咸鱼TabBar
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_23.gif)
-## 按钮其他常用测试
+## 仿简书TabBar
 ![示例](https://github.com/axclogo/AxcAE_TabBar/blob/master/Images/sample_24.gif)
+## 按钮其他常用测试
 
 ### 更新日志
 ● 1.0.0: 重新适配iPhoneX，以及部分坐标计算出现的错误; 
