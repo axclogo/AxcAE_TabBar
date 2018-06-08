@@ -81,6 +81,9 @@
         // 5.1添加构造Model到集合
         [tabBarConfs addObject:model];
     }];
+    // 使用自定义的TabBar来帮助触发凸起按钮点击事件
+    TestTabBar *testTabBar = [TestTabBar new];
+    [self setValue:testTabBar forKey:@"tabBar"];
     // 5.2 设置VCs -----
     // 一定要先设置这一步，然后再进行后边的顺序，因为系统只有在setViewControllers函数后才不会再次创建UIBarButtonItem，以免造成遮挡
     // 大意就是一定要让自定义TabBar遮挡住系统的TabBar

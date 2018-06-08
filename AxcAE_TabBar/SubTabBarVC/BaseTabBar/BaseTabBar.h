@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AxcAE_TabBar.h"
+#import "TestTabBar.h"
 
 @interface BaseTabBar : UITabBarController
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA21ACA520CA550100E458BE /* TestTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA21ACA420CA550100E458BE /* TestTabBar.m */; };
 		EA78A12820C29A40009A7D93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A12720C29A40009A7D93 /* AppDelegate.m */; };
 		EA78A12B20C29A40009A7D93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A12A20C29A40009A7D93 /* ViewController.m */; };
 		EA78A12E20C29A40009A7D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA78A12C20C29A40009A7D93 /* Main.storyboard */; };
@@ -78,6 +79,8 @@
 		194D03BE13945668A3E3B928 /* Pods-AxcAE_TabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxcAE_TabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AxcAE_TabBar/Pods-AxcAE_TabBar.debug.xcconfig"; sourceTree = "<group>"; };
 		50D0BCE7F245C7D3F109E071 /* libPods-AxcAE_TabBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AxcAE_TabBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E323BEB4E5C2DB5C39E773 /* Pods-AxcAE_TabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxcAE_TabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-AxcAE_TabBar/Pods-AxcAE_TabBar.release.xcconfig"; sourceTree = "<group>"; };
+		EA21ACA320CA550100E458BE /* TestTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTabBar.h; sourceTree = "<group>"; };
+		EA21ACA420CA550100E458BE /* TestTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTabBar.m; sourceTree = "<group>"; };
 		EA78A12320C29A40009A7D93 /* AxcAE_TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AxcAE_TabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA78A12620C29A40009A7D93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA78A12720C29A40009A7D93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -244,6 +247,8 @@
 				EA78A12720C29A40009A7D93 /* AppDelegate.m */,
 				EA78A12920C29A40009A7D93 /* ViewController.h */,
 				EA78A12A20C29A40009A7D93 /* ViewController.m */,
+				EA21ACA320CA550100E458BE /* TestTabBar.h */,
+				EA21ACA420CA550100E458BE /* TestTabBar.m */,
 				EA78A1DB20C52CDD009A7D93 /* TestVC */,
 				EA78A1B020C501CD009A7D93 /* OtherLib */,
 				EA78A16420C29AEC009A7D93 /* SubTabBarVC */,
@@ -780,6 +785,7 @@
 				EA78A12B20C29A40009A7D93 /* ViewController.m in Sources */,
 				EA78A1DF20C52CF0009A7D93 /* TestVC.m in Sources */,
 				EA78A1AB20C4FD44009A7D93 /* ItemBackgroundImageTabBarVC.m in Sources */,
+				EA21ACA520CA550100E458BE /* TestTabBar.m in Sources */,
 				EA78A1C520C509FD009A7D93 /* WHGradientHelperGradientTabBarVC4.m in Sources */,
 				EA78A19B20C4F307009A7D93 /* MultipleBulgeCircularTabBarVC.m in Sources */,
 				EA78A1A320C4F5D7009A7D93 /* BulgeSquareTabBarVC.m in Sources */,
