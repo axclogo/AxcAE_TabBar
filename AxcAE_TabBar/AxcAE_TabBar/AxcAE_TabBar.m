@@ -130,6 +130,7 @@ static AxcAE_TabBarItem *lastItem;
             }
         }
     }
+    [self.superview bringSubviewToFront:self]; // 放置到最前
 }
 // 进行item布局
 - (void)viewDidLayoutItems{
