@@ -130,6 +130,15 @@ static AxcAE_TabBarItem *lastItem;
             }
         }
     }
+    if ([self.superview isKindOfClass:[UITabBar class]]) {
+        UITabBar *tabbar = (UITabBar *)self.superview;
+        for (UIView *btn in tabbar.subviews) {
+            if ([btn isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
+                btn.hidden = YES;
+            }
+        }
+        [self.superview bringSubviewToFront:self]; // 放置到最前
+    }
 }
 // 进行item布局
 - (void)viewDidLayoutItems{

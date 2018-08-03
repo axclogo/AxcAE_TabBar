@@ -992,6 +992,7 @@
 				DEVELOPMENT_TEAM = MPXR757EXU;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AxcAE_TabBar/PrefixHeader.pch";
 				INFOPLIST_FILE = AxcAE_TabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1011,6 +1012,7 @@
 				DEVELOPMENT_TEAM = MPXR757EXU;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AxcAE_TabBar/PrefixHeader.pch";
 				INFOPLIST_FILE = AxcAE_TabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
