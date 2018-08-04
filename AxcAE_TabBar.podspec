@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
     s.name         = "AxcAE_TabBar"
 
-    s.version      = "1.0.2"
+    s.version      = "1.0.3"
 
     s.summary      = "A special effects TabBar component that opens many apis -- AxcAE_TabBar."
 
