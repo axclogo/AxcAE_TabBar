@@ -55,32 +55,12 @@
     [self itemDidLayoutBulge];
     [self layoutTabBarSubViews];
 }
-/**
- // 处理点外无法触发响应的BUG，但是iOS11后此方法失效，需要重新继承一个UITabBar去替换掉系统的TabBar然后重写触发才能使用
- // TabBar视图之外之所以无法响应，是因为系统自带TabBar为我的父视图，无法传递响应链，此方法注释废弃
--(UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event{
-    UIView *view = [super hitTest:point withEvent:event];
-    if (view == nil) {
-        for (UIView *subView in self.subviews) {
-            CGPoint myPoint = [subView convertPoint:point fromView:self];
-            if (CGRectContainsPoint(subView.bounds, myPoint)) {
-                return subView;
-            }
-        }
-    }
-    return view;
-}
-- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event{
-    __block BOOL isInside = NO;
-    [self.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        isInside = CGRectContainsPoint(obj.bounds, point);
-    }];
-    return isInside;
-}
-*/
-////////
+
+
+
 #pragma mark - 配置实例
 - (void)configuration{
+    [self hiddenUITabBarButton]; // 8.4补丁
     [self addSubview:self.backgroundImageView]; // 添加背景图
     [self.backgroundImageView addSubview:self.effectView];
 }
@@ -130,16 +110,26 @@ static AxcAE_TabBarItem *lastItem;
             }
         }
     }
+    [self hiddenUITabBarButton];
+}
+// 文字重叠，隐藏系统的tabbaritem
+- (void)hiddenUITabBarButton{
     if ([self.superview isKindOfClass:[UITabBar class]]) {
         UITabBar *tabbar = (UITabBar *)self.superview;
-        for (UIView *btn in tabbar.subviews) {
-            if ([btn isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
-                btn.hidden = YES;
-            }
-        }
-        [self.superview bringSubviewToFront:self]; // 放置到最前
+        dispatch_queue_t queue  = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.01 * NSEC_PER_SEC)), queue, ^{
+            dispatch_async(dispatch_get_main_queue(), ^{
+                for (UIView *btn in tabbar.subviews) {
+                    if ([btn isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
+                        btn.hidden = YES;
+                    }
+                }
+                [self.superview bringSubviewToFront:self]; // 放置到最前
+            });
+        });
     }
 }
+
 // 进行item布局
 - (void)viewDidLayoutItems{
     CGFloat screenAverageWidth = self.frame.size.width/self.items.count;
@@ -253,10 +243,10 @@ static AxcAE_TabBarItem *lastItem;
 }
 
 #pragma mark - SET/GET
-- (NSArray<AxcAE_TabBarItem *> *)tabBarItems{ // 对外只读
+- (NSArray<AxcAE_TabBarItem *> *)tabBarItems{
     return self.items;
 }
-- (AxcAE_TabBarItem *)currentSelectItem{ // 直接用只读的属性
+- (AxcAE_TabBarItem *)currentSelectItem{
     return [self.tabBarItems objectAtIndex:self.selectIndex];
 }
 - (void)setSelectIndex:(NSInteger)selectIndex{
