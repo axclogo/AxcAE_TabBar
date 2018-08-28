@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EA21ACA520CA550100E458BE /* TestTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA21ACA420CA550100E458BE /* TestTabBar.m */; };
+		EA3853AF2134030E002E60B2 /* BadgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3853AD2134030E002E60B2 /* BadgeViewController.m */; };
+		EA3853B02134030E002E60B2 /* BadgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3853AE2134030E002E60B2 /* BadgeViewController.xib */; };
 		EA78A12820C29A40009A7D93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A12720C29A40009A7D93 /* AppDelegate.m */; };
 		EA78A12B20C29A40009A7D93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A12A20C29A40009A7D93 /* ViewController.m */; };
 		EA78A12E20C29A40009A7D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA78A12C20C29A40009A7D93 /* Main.storyboard */; };
@@ -81,6 +83,9 @@
 		D8E323BEB4E5C2DB5C39E773 /* Pods-AxcAE_TabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxcAE_TabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-AxcAE_TabBar/Pods-AxcAE_TabBar.release.xcconfig"; sourceTree = "<group>"; };
 		EA21ACA320CA550100E458BE /* TestTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTabBar.h; sourceTree = "<group>"; };
 		EA21ACA420CA550100E458BE /* TestTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTabBar.m; sourceTree = "<group>"; };
+		EA3853AC2134030E002E60B2 /* BadgeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BadgeViewController.h; sourceTree = "<group>"; };
+		EA3853AD2134030E002E60B2 /* BadgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BadgeViewController.m; sourceTree = "<group>"; };
+		EA3853AE2134030E002E60B2 /* BadgeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BadgeViewController.xib; sourceTree = "<group>"; };
 		EA78A12320C29A40009A7D93 /* AxcAE_TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AxcAE_TabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA78A12620C29A40009A7D93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA78A12720C29A40009A7D93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -620,6 +625,9 @@
 				EA78A1F420C532AB009A7D93 /* TestGetTabBarItemVC.h */,
 				EA78A1F520C532AB009A7D93 /* TestGetTabBarItemVC.m */,
 				EA78A1F620C532AB009A7D93 /* TestGetTabBarItemVC.xib */,
+				EA3853AC2134030E002E60B2 /* BadgeViewController.h */,
+				EA3853AD2134030E002E60B2 /* BadgeViewController.m */,
+				EA3853AE2134030E002E60B2 /* BadgeViewController.xib */,
 			);
 			path = TestVC;
 			sourceTree = "<group>";
@@ -730,6 +738,7 @@
 			files = (
 				EA78A1F020C52E5D009A7D93 /* TestHiddenVC.xib in Resources */,
 				EA78A1E020C52CF0009A7D93 /* TestVC.xib in Resources */,
+				EA3853B02134030E002E60B2 /* BadgeViewController.xib in Resources */,
 				EA78A13320C29A41009A7D93 /* LaunchScreen.storyboard in Resources */,
 				EA78A13020C29A41009A7D93 /* Assets.xcassets in Resources */,
 				EA78A1F820C532AB009A7D93 /* TestGetTabBarItemVC.xib in Resources */,
@@ -798,6 +807,7 @@
 				EA78A16020C29A55009A7D93 /* AxcAE_TabBarBadge.m in Sources */,
 				EA78A18A20C4E4E7009A7D93 /* CustomImageTabBarVC.m in Sources */,
 				EA78A17520C4D3C8009A7D93 /* ItemSizeAlignmentTabBarVC.m in Sources */,
+				EA3853AF2134030E002E60B2 /* BadgeViewController.m in Sources */,
 				EA78A18120C4DEEF009A7D93 /* ItemCustomAnimationTabBarVC.m in Sources */,
 				EA78A1E720C52E03009A7D93 /* TestPushHiddenVC.m in Sources */,
 				EA78A17120C4D035009A7D93 /* ItemSizeTabBarVC.m in Sources */,

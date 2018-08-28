@@ -12,6 +12,7 @@
 #import "TestPushHiddenVC.h"
 #import "TestHiddenVC.h"
 #import "TestGetTabBarItemVC.h"
+#import "BadgeViewController.h"
 
 @interface PushHiddenTabBarVC ()<AxcAE_TabBarDelegate>
 
@@ -30,7 +31,7 @@
     @[@{@"vc":[TestPushHiddenVC new],@"itemTitle":@"推出"},
       @{@"vc":[TestHiddenVC new],@"itemTitle":@"隐藏"},
       @{@"vc":[TestGetTabBarItemVC new],@"itemTitle":@"获取Item"},
-      @{@"vc":[UIViewController new],@"itemTitle":@"占位"},
+      @{@"vc":[BadgeViewController new],@"itemTitle":@"红点徽标"},
       @{@"vc":[UIViewController new],@"itemTitle":@"占位"}
       ];
     // 1.遍历这个集合

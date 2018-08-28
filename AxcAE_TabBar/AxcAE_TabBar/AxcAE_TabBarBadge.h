@@ -16,5 +16,7 @@
 @property(nonatomic, assign)BOOL automaticHidden;
 // 气泡高度，默认15
 @property(nonatomic, assign)CGFloat badgeHeight;
+// 气泡宽度，默认0 设置宽度后由你来决定要多宽
+@property(nonatomic , assign)CGFloat badgeWidth;
 
 @end

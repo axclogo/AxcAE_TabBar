@@ -51,17 +51,20 @@
 - (void)setBadgeText:(NSString *)badgeText{
     _badgeText = badgeText;
     self.text = _badgeText;
+    CGFloat widths = _badgeText.length*9<20?20:_badgeText.length*9;
+    if (self.badgeWidth) {
+        widths = self.badgeWidth;
+    }
     if (_badgeText.integerValue) { // 是数字 或者不为0
         self.hidden = NO; // 不管咋地先取消隐藏
         if (_badgeText.integerValue > 99) {
             self.text = @"99+";
         }
     }else{ //
-        if (!_badgeText.length) { // 不存在的空串
+        if (!_badgeText.length) { // 长度为0的空串
             self.hidden = self.automaticHidden;
         }
     }
-    CGFloat widths = _badgeText.length*9<20?20:_badgeText.length*9;
     CGRect frame = self.frame;
     frame.size.width = widths;
     frame.size.height = self.badgeHeight;
